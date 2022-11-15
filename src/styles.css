@@ -22,6 +22,11 @@ footer {
   flex-shrink: 0;
 }
 
+h1.list__title{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 .loading-spinner {
   animation: rotation 2s infinite linear;
   margin: 120px;
