@@ -24,7 +24,7 @@ La aplicación es muy sencilla, simplemente obtiene los datos de un api externo 
 
 La finalidad de la misma es practicar como implementar CI/CD en un proyecto y su funcionamiento.
 
-###Instrucciones
+### Instrucciones
                 
 ----
 
@@ -44,7 +44,7 @@ Para que el proyecto funcione correctamente no olvide ejecutar el comando inferi
 npm install
 ```
 
-####**Ejecutar**
+#### **Ejecutar**
 
 Si desea ejecutar el proyecto en su ambiente local dirijase a la terminal de comandos de su preferencia y ejecute el comando que encontrará en la parte inferior
 
@@ -58,7 +58,7 @@ Una vez ejecutado el proyecto correrá por defecto en el puerto que encontrará 
 http://localhost:8080/
 ```
 
-####**Pruebas**
+#### **Pruebas**
 Para ejecutar el ambiente de pruebas impulsado por Cypress ejecute el siguiente comando.
 
 ```sh
@@ -77,7 +77,7 @@ Para ejecutar el analisis del codigo con Eslint ejecute el siguiente comando.
 npm run eslint
 ```
 
-###**Desplegar en producción**
+### **Desplegar en producción**
 
 Para desplegar a produccion se tiene que hacer push a la rama main, de alli automaticamente se desplegara en produccion si todo el proceso de pruebas sale correcto.
 
@@ -87,7 +87,7 @@ git commit -m 'Commit'
 git branch -M main
 ```
 
-###Conclusiones
+### Conclusiones
 Gracias a github action, jenkins y demas provedores de automatizacion de procesos podemos podemos convertir algo muy monótono en una gran ampliacion y reduccion de trabajo, con github actions podemos automatizar las pruebas, testing, entregas y desplieges a produccion de una manera muy sencilla y lo mejor es que se ofrece gratis con lo que podemos simplemente hacer un push en nuestra aplicación y en cuestion de minutos o hasta segundos (dependiendo de la cantidad de paquetes, pruebas que tenga la aplicación) podamos ver nuestros cambios en producción.
 
 Es realmente alucinante ver como se hace cada proceso y como ahorra tiempo de trabajo, esta aplicación nos dejo una amplio conocimiento en como la automatizacion de trabajo se puede hacer, ninguno del equipo habia entrado a esta area a ver como funciona y ahora que sabemos como es y para que realmente sirve nos sirve como empujon para empezarlo a aplicar en nuestros entornos laborales e individuales.
